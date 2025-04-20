@@ -1,16 +1,16 @@
 # Task-Manager
 A simple to-do list web app built with HTML, CSS, and JavaScript, featuring local storage, light/dark mode toggle, and task categorization.
-# 📝 To-Do List Web App
+### 📝 To-Do List Web App
 
 A simple to-do list web app built with **HTML**, **CSS**, and **JavaScript**, featuring local storage, light/dark mode toggle, and task categorization.
 
 ---
 
-## 🌐 Live Demo
+### 🌐 Live Demo
 https://sarthak784.github.io/Task-Manager/
 ---
 
-## ✨ Features
+### ✨ Features
 
 - ✅ Add, complete, and delete tasks
 - 🕒 Set due dates for tasks
@@ -23,7 +23,7 @@ https://sarthak784.github.io/Task-Manager/
 
 ---
 
-## 🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 - **HTML**: Basic structure and layout
 - **CSS**: Styling and responsive design
