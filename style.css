@@ -1,0 +1,108 @@
+:root {
+  --bg-color: #121212;
+  --text-color: white;
+  --card-bg: #2c2c2c;
+  --accent: #28a745;
+}
+
+.light-mode {
+  --bg-color: #f0f0f0;
+  --text-color: #000;
+  --card-bg: #fff;
+  --accent: #007bff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  transition: background 0.3s ease;
+}
+
+.container {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  flex: 1 1 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+button {
+  padding: 8px 12px;
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: var(--card-bg);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+li.completed span.task-text {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.task-meta {
+  font-size: 0.85em;
+  color: #aaa;
+}
+
+.delete-btn {
+  background: #dc3545;
+  margin-left: 10px;
+  padding: 4px 8px;
+}
+
+@media (max-width: 600px) {
+  .input-section {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
