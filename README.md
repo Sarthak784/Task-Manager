@@ -7,7 +7,7 @@ A simple to-do list web app built with **HTML**, **CSS**, and **JavaScript**, fe
 ---
 
 ### 🌐 Live Demo
-https://sarthak784.github.io/Task-Manager/
+[Task Manager](https://sarthak784.github.io/Task-Manager/)
 ---
 
 ### ✨ Features
